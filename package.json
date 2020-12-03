@@ -5,11 +5,18 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "format": "prettier --no-config --write ."
   },
   "dependencies": {
+    "autoprefixer": "^10.0.4",
     "next": "10.0.3",
+    "postcss": "^8.1.13",
     "react": "17.0.1",
-    "react-dom": "17.0.1"
+    "react-dom": "17.0.1",
+    "tailwindcss": "^2.0.1"
+  },
+  "devDependencies": {
+    "prettier": "^2.2.1"
   }
 }

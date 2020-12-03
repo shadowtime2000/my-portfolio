@@ -4,6 +4,7 @@ export default function Home() {
   return (
     <div className="m-0 h-full grid place-items-center bg-black no-underline">
       <Head>
+        <meta name="description" content={process.env.NEXT_PUBLIC_DESCRIPTION ? process.env.NEXT_PUBLIC_DESCRIPTION : process.env.NEXT_PUBLIC_USERNAME} />
         <title>
           {process.env.NEXT_PUBLIC_DOMAIN
             ? NEXT_PUBLIC_DOMAIN.env.DOMAIN

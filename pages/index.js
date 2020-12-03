@@ -6,7 +6,6 @@ export default function Home() {
       <Head>
         {/* OG meta tags start */}
         <meta property="og:type" content="website" />
-        <meta property="og:url" content={window.location.href} />
         <meta property="og:title" content={process.env.NEXT_PUBLIC_TITLE || process.env.NEXT_PUBLIC_USERNAME} />
         <meta property="og:description" content={process.env.NEXT_PUBLIC_DESCRIPTION || process.env.NEXT_PUBLIC_USERNAME} />
         {/* OG meta tags end */}
@@ -27,7 +26,7 @@ export default function Home() {
             ? NEXT_PUBLIC_DOMAIN.env.DOMAIN
             : process.env.NEXT_PUBLIC_USERNAME}
         </title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href={process.env.NEXT_PUBLIC_ICON} />
       </Head>
       <div className="grid place-items-center text-center">
         <div>

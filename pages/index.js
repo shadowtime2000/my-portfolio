@@ -5,6 +5,7 @@ export default function Home() {
     <div className="m-0 h-full grid place-items-center bg-black no-underline">
       <Head>
         <meta name="description" content={process.env.NEXT_PUBLIC_DESCRIPTION ? process.env.NEXT_PUBLIC_DESCRIPTION : process.env.NEXT_PUBLIC_USERNAME} />
+        <meta name="msvalidate.01" content={process.env.NEXT_PUBLIC_BING_WEBMASTER || ""} />
         <title>
           {process.env.NEXT_PUBLIC_DOMAIN
             ? NEXT_PUBLIC_DOMAIN.env.DOMAIN

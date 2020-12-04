@@ -6,8 +6,19 @@ export default function Home() {
       <Head>
         {/* OG meta tags start */}
         <meta property="og:type" content="website" />
-        <meta property="og:title" content={process.env.NEXT_PUBLIC_TITLE || process.env.NEXT_PUBLIC_USERNAME} />
-        <meta property="og:description" content={process.env.NEXT_PUBLIC_DESCRIPTION || process.env.NEXT_PUBLIC_USERNAME} />
+        <meta
+          property="og:title"
+          content={
+            process.env.NEXT_PUBLIC_TITLE || process.env.NEXT_PUBLIC_USERNAME
+          }
+        />
+        <meta
+          property="og:description"
+          content={
+            process.env.NEXT_PUBLIC_DESCRIPTION ||
+            process.env.NEXT_PUBLIC_USERNAME
+          }
+        />
         {/* OG meta tags end */}
         <meta
           name="description"
@@ -20,6 +31,10 @@ export default function Home() {
         <meta
           name="msvalidate.01"
           content={process.env.NEXT_PUBLIC_BING_WEBMASTER || ""}
+        />
+        <meta
+          name="monetization"
+          content={process.env.NEXT_PUBLIC_PAYMENT_POINTER || ""}
         />
         <title>
           {process.env.NEXT_PUBLIC_DOMAIN

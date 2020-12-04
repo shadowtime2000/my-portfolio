@@ -43,7 +43,7 @@ export default function Home() {
         />
         <title>
           {process.env.NEXT_PUBLIC_DOMAIN
-            ? NEXT_PUBLIC_DOMAIN.env.DOMAIN
+            ? process.env.NEXT_PUBLIC_DOMAIN
             : process.env.NEXT_PUBLIC_TITLE || process.env.NEXT_PUBLIC_USERNAME}
         </title>
         <link rel="icon" href={process.env.NEXT_PUBLIC_ICON || process.env.NEXT_PUBLIC_IMAGE || "/favicon.ico"} />

@@ -6,6 +6,7 @@ export default function Home() {
       <Head>
         {/* OG meta tags start */}
         <meta property="og:type" content="website" />
+        <meta property="og:url" content={process.env.NEXT_PUBLIC_DEPLOYED_URL} />
         <meta
           property="og:title"
           content={

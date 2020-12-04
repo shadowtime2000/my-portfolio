@@ -43,9 +43,7 @@ export default function Home() {
           content={process.env.NEXT_PUBLIC_PAYMENT_POINTER || ""}
         />
         <title>
-          {process.env.NEXT_PUBLIC_DOMAIN
-            ? process.env.NEXT_PUBLIC_DOMAIN
-            : process.env.NEXT_PUBLIC_TITLE || process.env.NEXT_PUBLIC_USERNAME}
+          {process.env.NEXT_PUBLIC_TITLE || process.env.NEXT_PUBLIC_USERNAME}
         </title>
         <link rel="icon" href={process.env.NEXT_PUBLIC_ICON || process.env.NEXT_PUBLIC_IMAGE || "/favicon.ico"} />
       </Head>

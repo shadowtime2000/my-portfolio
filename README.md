@@ -1,4 +1,4 @@
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Fshadowtime2000%2Fmy-portfolio&env=NEXT_PUBLIC_DEPLOYED_URL,NEXT_PUBLIC_USERNAME,NEXT_PUBLIC_TITLE,NEXT_PUBLIC_DESCRIPTION,NEXT_PUBLIC_IMAGE,NEXT_PUBLIC_BING_WEBMASTER,NEXT_PUBLIC_PAYMENT_POINTER,NEXT_PUBLIC_DOMAIN&demo-title=shadowtime2000's%20Site&demo-url=https%3A%2F%2Fshadowtime2000.com)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Fshadowtime2000%2Fmy-portfolio&env=NEXT_PUBLIC_DEPLOYED_URL,NEXT_PUBLIC_USERNAME,NEXT_PUBLIC_TITLE,NEXT_PUBLIC_DESCRIPTION,NEXT_PUBLIC_IMAGE,NEXT_PUBLIC_BING_WEBMASTER,NEXT_PUBLIC_PAYMENT_POINTER,NEXT_PUBLIC_DOMAIN,NEXT_PUBLIC_TRAITS&demo-title=shadowtime2000's%20Site&demo-url=https%3A%2F%2Fshadowtime2000.com)
 
 
 

@@ -1,4 +1,5 @@
 import Head from "next/head";
+import { Fragment } from "react";
 
 export default function Home() {
   return (
@@ -54,7 +55,8 @@ export default function Home() {
             Hi, I'm {process.env.NEXT_PUBLIC_USERNAME}
           </h1>
           <p className="font-comfortaa text-indigo-600 text-2xl my-1.5">
-            Blogger <span className="text-white">|</span> Developer
+            {/* Blogger <span className="text-white">|</span> Developer */}
+            {process.env.NEXT_PUBLIC_TRAITS.split(/,/).map((e, i) => <Fragment key={i}>{e} {i === process.env.NEXT_PUBLIC_TRAITS.split(/,/).length - 1 ? undefined : <span className="text-white">|</span>} </Fragment>)}
           </p>
         </div>
       </div>
